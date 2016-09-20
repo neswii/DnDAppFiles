@@ -1,0 +1,84 @@
+<compendium version="1">
+  <monster>
+    <name>Aboleth, Nihileth</name>
+    <size>L</size>
+		<type>undead, tome of beasts</type>
+		<alignment>chaotic evil</alignment>
+		<ac>17</ac>
+		<hp>135 (18d8+36)</hp>
+		<speed>10 ft., swim 40 ft.</speed>
+		<str>21</str>
+		<dex>9</dex>
+		<con>15</con>
+		<int>18</int>
+		<wis>15</wis>
+		<cha>18</cha>
+    <save>Con +6, Int +8, Wis +6</save>
+		<skill>History +12, Perception +10</skill>
+    <resist>acid, fire, lightning, thunder (only when in ethereal form); bludgeoning, piercing and slashing from nonmagical weapons</resist>
+		<immune>cold, necrotic, poison; bludgeoning, piercing and slashing from nonmagical weapons (only when in ethereal form)</immune>
+		<conditionImmune>charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>20</passive>
+		<languages>Void Speech, telepathy 120 ft.</languages>
+		<cr>12</cr>
+		<trait>
+			<name>Undead Nature</name>
+			<text>A nihileth does not require air, food, drink, or sleep.</text>
+		</trait>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If non-radiant damage reduces a nihileth to 0 hit points, it makes a Constitution saving throw with a DC of 5+ the damage taken. If it succeeds, the nihileth drops to 1 hit point instead.</text>
+		</trait>
+		<trait>
+			<name>Dual State</name>
+			<text>A nihileth exists upon the Material Plane in one of two forms and can switch between them at will. In its material form, it has resistance to damage from nonmagical weapons. In its ethereal form, it is immune to damage from nonmagical weapons. The creature’s ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within. A nihileth in ethereal form can move through air as though it were water, with a fly speed of 40 feet.</text>
+		</trait>
+		<trait>
+			<name>Void Aura</name>
+			<text>A nihileth doesn’t secrete the mucous cloud of an aboleth. Instead, the undead nihileth is surrounded by a chilling cloud. A living creature that starts its turn within 5 feet of a nihileth must make a successful DC 14 Constitution saving throw or be slowed until the start of its next turn. In addition, any creature that has been diseased by a nihileth or a nihilethic zombie takes 7 (2d6) cold damage every time it starts its turn within the aura.</text>
+		</trait>
+		<trait>
+			<name>Infecting Telepathy</name>
+			<text>If a creature communicates telepathically with the nihileth, or uses a psychic attack against it, the nihileth can spread its disease to the creature. The creature must succeed on a DC 14 Wisdom save or become infected with the same disease caused by the nihileth’s tentacle attack. This ability replaces an aboleth’s Probing Telepathy ability.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The nihileth makes three tentacle attacks or three withering touches, depending on what form it is in.</text>
+		</action>
+		<action>
+			<name>Tentacle (Material Form Only)</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage.If the target creature is hit, it must make a successful DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute; during that time, it can be removed by lesser restoration or comparable magic. After 1 minute, the diseased creature’s skin becomes translucent and slimy. The creature cannot regain hit points unless it is entirely underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 1d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth.</text>
+		</action>
+		<action>
+			<name>Withering Touch (Ethereal Form Only)</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 14 (3d6+4) necrotic damage.</text>
+		</action>
+		<action>
+			<name>Form Swap</name>
+			<text>As a bonus action, the nihileth can alter between its material and ethereal forms at will.</text>
+		</action>
+		<action>
+			<name>Void Body</name>
+			<text>As a reaction, the nihileth can reduce the damage it takes from a single source to 0. Divine damage can only be reduced by half.</text>
+		</action>
+		<action>
+			<name>Tail (Material Form Only)</name>
+			<text>As per the aboleth action.</text>
+		</action>
+		<action>
+			<name>Enslave (3/day)</name>
+			<text>As per the aboleth action.</text>
+		</action>
+    <legendary>
+			<name>Detect</name>
+			<text>As per the aboleth action.</text>
+		</legendary>
+    <legendary>
+			<name>Tail Swipe</name>
+			<text>As per the aboleth action.</text>
+		</legendary>
+    <legendary>
+			<name>Psychic Drain (Costs 2 Actions)</name>
+			<text>As per the aboleth action.</text>
+		</legendary>
